@@ -1,6 +1,10 @@
 import React from "react";
 
-const PageTitle = ({ title = "Default Title", subheading = "", backgroundImageUrl }) => {
+const PageTitle = ({
+  title = "Default Title",
+  subheading = "",
+  backgroundImageUrl = "",
+}) => {
   const backgroundImageStyle = {
     backgroundImage: `url(${backgroundImageUrl})`,
   };
