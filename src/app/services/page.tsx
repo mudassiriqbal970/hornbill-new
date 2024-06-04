@@ -7,17 +7,12 @@ import Pagetitle from "./../../components/Pagetitle";
 const backgroundImageUrl = "/images/services.jpg";
 
 const ServicePage = () => {
-  useEffect(() => {
-    document.title = "Services ";
-  }, []);
   return (
     <>
-      <Head>
-        <title>{document.title}</title>
-        <meta name="description" content="HornBill - Elevating Healthcare Together" />
-      </Head>
       <Pagetitle title="Services" backgroundImageUrl={backgroundImageUrl} />
-      <div className="section-padding"><Services /></div>
+      <div className="section-padding">
+        <Services />
+      </div>
     </>
   );
 };

@@ -10,16 +10,8 @@ import Whychoose from "@/components/Whychoose";
 const backgroundImageUrl = "/images/about-us.jpg";
 
 const AboutUsPage = () => {
-  
-useEffect(() => {
-  document.title = "About Us ";
-}, []);
   return (
     <>
-      <Head>
-        <title>{document.title}</title>
-        <meta name="description" content="HornBill - Elevating Healthcare Together" />
-      </Head>
       <Pagetitle title="About Us" backgroundImageUrl={backgroundImageUrl} />
       <Textwithimage />
       <Ourvision />
