@@ -9,7 +9,7 @@ const Team = () => {
       id: 1,
       name: "Mudassar iqbal",
       role: "CEO",
-      image: "/images/team4.jpg",
+      image: "/images/team3.jpg",
     },
     {
       id: 2,
