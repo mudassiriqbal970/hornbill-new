@@ -63,7 +63,7 @@ const Team = () => {
               {members.map((member) => (
                 <div
                   key={member.id}
-                  className="col-md-3 team-member-box text-center mb-md-0 mb-4"
+                  className="col-md-4 team-member-box text-center mb-md-0 mb-4"
                 >
                   <div className="">
                     <Image
