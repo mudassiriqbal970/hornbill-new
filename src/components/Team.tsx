@@ -7,28 +7,22 @@ const Team = () => {
   const [members, setMembers] = useState([
     {
       id: 1,
-      name: "John Doe",
-      role: "CEO1",
+      name: "Mudassar iqbal",
+      role: "CEO",
       image: "/images/team1.jpg",
     },
     {
       id: 2,
-      name: "Jane Smith",
+      name: "Engr. Mudassar Iqbal",
       role: "CTO",
       image: "/images/team2.jpg",
     },
     {
       id: 3,
-      name: "Michael Brown",
+      name: "Mr. Ali Raza",
       role: "CFO",
       image: "/images/team3.jpg",
     },
-    {
-        id: 4,
-        name: "Michael Brown",
-        role: "CFO",
-        image: "/images/team1.jpg",
-      },
     // Add more members as needed
   ]);
 
