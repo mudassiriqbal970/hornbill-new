@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="row">
           <div className="col-md-6 pe-md-5  mb-4">
             <h2 className="text-primary mb-4">
-              Fix an <span className="text-secondary">Appointment </span>
+              Email us
             </h2>
             <form>
               <div className="row">

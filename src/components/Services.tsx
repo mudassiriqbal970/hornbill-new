@@ -13,28 +13,28 @@ const Services = () => {
   const servicesData = [
     {
       id: 1,
-      title: "Advanced Care",
+      title: "Me tioned",
     },
     {
       id: 2,
-      title: "Psychology",
+      title: "Medical imaging",
     },
     {
       id: 3,
-      title: "Laboratory Test",
+      title: "ICU equipments",
     },
 
     {
       id: 4,
-      title: "Corona",
+      title: "Hospital furniture",
     },
     {
       id: 5,
-      title: "Psychotherapy",
+      title: "Patient care products",
     },
     {
       id: 6,
-      title: "Respite Home",
+      title: "Laboratory",
     },
   ];
   let iconStyles = {

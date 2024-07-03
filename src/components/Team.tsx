@@ -7,28 +7,22 @@ const Team = () => {
   const [members, setMembers] = useState([
     {
       id: 1,
-      name: "John Doe",
+      name: "Mudassar iqbal",
       role: "CEO",
-      image: "/images/team1.jpg",
+      image: "/images/team3.jpg",
     },
     {
       id: 2,
-      name: "Jane Smith",
+      name: "Engr. Mudassar Iqbal",
       role: "CTO",
       image: "/images/team2.jpg",
     },
     {
       id: 3,
-      name: "Michael Brown",
+      name: "Mr. Ali Raza",
       role: "CFO",
       image: "/images/team3.jpg",
     },
-    {
-        id: 4,
-        name: "Michael Brown",
-        role: "CFO",
-        image: "/images/team1.jpg",
-      },
     // Add more members as needed
   ]);
 
@@ -69,7 +63,7 @@ const Team = () => {
               {members.map((member) => (
                 <div
                   key={member.id}
-                  className="col-md-3 team-member-box text-center mb-md-0 mb-4"
+                  className="col-md-4 team-member-box text-center mb-md-0 mb-4"
                 >
                   <div className="">
                     <Image
