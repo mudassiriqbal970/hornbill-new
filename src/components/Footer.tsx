@@ -164,17 +164,17 @@ const Footer = () => {
         <div className="container ">
           <div className="row">
             <div className="col-12">
-              <ul className="list-unstyled d-flex gap-md-4 gap-3">
+              <ul className="d-flex flex-column flex-md-row gap-3 gap-md-4 list-unstyled text-center">
                 <li>
-                  <span className="text-white">© All Rights Reserved 2024
-                  Develop by
-                  <Link
-                    href="https://devsrank.com/"
-                    className="text-white ps-1"
-                    target="_blank"
-                  >
-                    DevsRank
-                  </Link>
+                  <span className="text-white">
+                    © All Rights Reserved 2024 Develop by
+                    <Link
+                      href="https://devsrank.com/"
+                      className="text-white ps-1"
+                      target="_blank"
+                    >
+                      DevsRank
+                    </Link>
                   </span>
                 </li>
                 <li>
