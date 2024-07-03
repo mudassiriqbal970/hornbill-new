@@ -164,8 +164,8 @@ dl {
   background-repeat: no-repeat;
 }
 /* Why Choose CSS */
-.why-choose-title{
-  font-size:20px;
+.why-choose-title {
+  font-size: 20px;
 }
 /* Footer CSS */
 .title-divider {
@@ -211,8 +211,8 @@ dl {
   .home-banner {
     height: 80vh;
   }
-  .page-title-section{
-   height:50vh; 
+  .page-title-section {
+    height: 50vh;
   }
   h2 {
     font-size: 32px;

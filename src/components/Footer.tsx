@@ -25,7 +25,9 @@ const Footer = () => {
               />
             </Link>
             <p className="text-white my-3">
-            At HornBill, we are dedicated to enhancing healthcare through the provision of top-quality medical equipment.             </p>
+              At HornBill, we are dedicated to enhancing healthcare through the
+              provision of top-quality medical equipment.{" "}
+            </p>
             <h5 className="text-white mb-3">Follow Us:</h5>
             <ul className=" footer-contact list-unstyled d-flex gap-2">
               <li>
@@ -146,7 +148,10 @@ const Footer = () => {
                     </div>
                     <div className="box-text text-white ">
                       <h6 className="text-white mb-0">Visit Us</h6>
-                      <span className="text-white ">House No 02, Main Service Road,<br/> G-16/4, Islamabad</span>
+                      <span className="text-white ">
+                        House No 02, Main Service Road,
+                        <br /> G-16/4, Islamabad
+                      </span>
                     </div>
                   </div>
                 </span>
@@ -161,7 +166,16 @@ const Footer = () => {
             <div className="col-12">
               <ul className="list-unstyled d-flex gap-md-4 gap-3">
                 <li>
-                  <span className="text-white">© All Rights Reserved 2024</span>
+                  <span className="text-white">© All Rights Reserved 2024
+                  Develop by
+                  <Link
+                    href="https://devsrank.com/"
+                    className="text-white ps-1"
+                    target="_blank"
+                  >
+                    DevsRank
+                  </Link>
+                  </span>
                 </li>
                 <li>
                   <Link
