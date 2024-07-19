@@ -189,9 +189,7 @@ dl {
 .bottom-footer {
   border-top: 1px solid #fff;
 }
-.offcanvas.offcanvas-end{
-  width:80% !important;
-}
+
 @media (min-width: 1024px) {
   .w-lg-100 {
     width: 100%;
@@ -224,4 +222,7 @@ dl {
   .spacer-height {
     height: 400px;
   }
+  .offcanvas.offcanvas-end{
+  width:80% !important;
+}
 }
